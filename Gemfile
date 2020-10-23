@@ -6,6 +6,9 @@ source "https://rubygems.org"
 gemspec
 
 # The following gems are dependencies of the gem's dummy/example apps, not the gem itself.
+#
+# TODO -- can we clean this up if we are only using GH Actions and not Travis?
+#
 # They must be defined here because of the way Travis CI works, in that it will only
 # bundle install from a single Gemfile. Therefore, all gems that we will need for any dummy/example
 # app have to be manually added to this file.
@@ -21,8 +24,8 @@ gem "sass-rails"
 gem "scss_lint", require: false
 gem "sdoc", group: :doc
 gem "spring"
-gem "sprockets", "~>3.0"
-gem "sqlite3", "~> 1.4"
+gem "sprockets"
+gem "sqlite3"
 gem "turbolinks"
 gem "uglifier"
 gem "web-console", group: :development
