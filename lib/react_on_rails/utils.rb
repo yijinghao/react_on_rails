@@ -34,7 +34,7 @@ module ReactOnRails
     end
 
     def self.object_to_boolean(value)
-      [true, "true", "yes", 1, "1", "t"].include?(value.class == String ? value.downcase : value)
+      [true, "true", "yes", 1, "1", "t"].include?(value.instance_of?(String) ? value.downcase : value)
     end
 
     def self.server_rendering_is_enabled?
