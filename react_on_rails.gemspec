@@ -48,11 +48,14 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec"
   s.add_development_dependency "rubocop", "0.93.1"
+  s.add_development_dependency "rspec-retry"
+  s.add_development_dependency "rspec-rails"
 
   s.post_install_message = '
 --------------------------------------------------------------------------------
-Email contact@shakacode.com for access to our slack room and information about our "pro support plan"
-which supports better performance, via caching helpers and our node rendering server.
+Checkout https://www.shakacode.com/react-on-rails-pro for information about our
+"React on Rails Pro" which includes one hour a month of support and a gem for
+better performance, via caching helpers and our node rendering server.
 --------------------------------------------------------------------------------
 '
 end

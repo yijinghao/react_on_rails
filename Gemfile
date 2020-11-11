@@ -34,7 +34,6 @@ gemspec
 # gem "capybara-screenshot"
 # gem "launchy"
 # gem "rspec-rails"
-# gem "rspec-retry"
 # gem "selenium-webdriver"
 # gem "webpacker", ">= 5.2.1"
 #
