@@ -41,7 +41,7 @@ gem "sdoc", group: :doc
 # Use Unicorn as the app server
 # gem 'unicorn'
 
-gem "sprockets", "~>3.0"
+gem "sprockets"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -55,8 +55,7 @@ group :development, :test do
   gem "pry-doc"
   gem "pry-rails"
   gem "pry-rescue"
-  gem "rubocop", require: false
-  gem "ruby-lint", require: false
+  gem "rubocop", "0.93.1", require: false
   gem "scss_lint", require: false
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring

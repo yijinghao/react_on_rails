@@ -2,6 +2,7 @@
 # Check out: https://github.com/bbatsov/rubocop
 
 AllCops:
+  NewCops: enable
   DisplayCopNames: true
   TargetRubyVersion: 2.5
 
@@ -109,6 +110,9 @@ Layout/SpaceAroundMethodCallOperator:
 
 Lint/RaiseException:
   Enabled: true
+
+Lint/EmptyInterpolation:
+  Enabled: false
 
 Lint/StructNewOverride:
   Enabled: true
