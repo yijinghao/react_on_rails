@@ -34,9 +34,9 @@ gem "bootsnap", require: false
 # gem "capybara"
 # gem "capybara-screenshot"
 # gem "launchy"
-# gem "rspec-rails"
+gem "rspec-rails"
 # gem "selenium-webdriver"
-# gem "webpacker", ">= 5.2.1"
+gem "webpacker", ">= 5.2.1"
 #
 # gem "equivalent-xml", github: "mbklein/equivalent-xml"
 # gem "rainbow"
