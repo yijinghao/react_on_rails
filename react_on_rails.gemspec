@@ -45,9 +45,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "pry-state"
   s.add_development_dependency "rails"
   s.add_development_dependency "rake"
-  s.add_development_dependency "rspec"
-  s.add_development_dependency "rspec-retry"
-  s.add_development_dependency "rspec-rails"
   s.add_development_dependency "rubocop", "1.2.0"
 
   s.post_install_message = '
